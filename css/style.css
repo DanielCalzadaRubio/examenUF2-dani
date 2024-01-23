@@ -37,9 +37,8 @@ h1 {
 }
 
 .llagrima {
-    
-    width: 50px;
-    transform: translate(225%, 125%);
+    width: 100px;
+    transform: translate(85%, 75%);
 }
 
 #audio {
