@@ -8,3 +8,40 @@ html, body {
 h1 {
     font-size: 2em;
 }
+
+.banner {
+    position: relative;
+    
+}
+
+.banner img {
+    position: absolute;
+    transform: translateY(-90%);
+    animation-name: moverse;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes moverse {
+    0% {
+        right: -5%;
+    }
+    100% {
+        right: 54%;
+    }
+}
+
+.pallaso {
+    position: absolute;
+}
+
+.llagrima {
+    
+    width: 50px;
+    transform: translate(225%, 125%);
+}
+
+#audio {
+    transform: translate(16%, 160%);
+}
